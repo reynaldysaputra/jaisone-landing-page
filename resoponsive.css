@@ -1,0 +1,318 @@
+@media only screen 
+   and (min-width : 200px)
+   and (max-width : 568px)
+   and (orientation: portrait){
+      #header #img img {
+         height: 500px;
+      }
+
+      #header #img div {
+         height: 1800px;
+      }
+
+      #header #img div:nth-child(3) {
+         height: 1400px !important;
+      }
+
+      #header #navMobile {
+         z-index: 99;
+         display: block;
+      }
+
+      #header #navMobile h1{
+         float: right;
+         margin: 10px;
+      }
+
+      #header #navMobile h2 {
+         float: left;
+         margin: 10px;
+         margin-top: 15px;
+      }
+
+      #header #navMobile h1 a {
+         text-decoration: none;
+         color: #333;
+         font-family: sans-serif;
+         font-size: 25px;
+      }
+
+      #header #navMobile h2 a {
+         text-decoration: none;
+         color: #333;
+         font-family: sans-serif;
+         font-size: 25px !important;
+      }
+
+      #header nav {
+         width: 100%;
+         height: auto;
+         left: 0;
+         top: -20%;
+         margin-bottom: 30px;
+         background-color: white;
+         display: block;
+         z-index: 1;
+         transition: 0.5s;
+      }
+
+      #navMobileKlik:target {
+         top: 1.4%;
+      }
+
+      #header nav ul {
+         padding: 0px;
+      }
+
+      #header nav ul li {
+         float: none;
+      }
+
+      #header nav ul li a {
+         color: black;
+      }
+
+      #header nav ul .content {
+         text-align: center;
+      }
+
+      #header nav ul .icon {
+         z-index: 9999;
+         float: left;
+         margin: 10px;
+      }
+
+      #header nav ul .icn1 {
+         margin-left: 18%;
+      }
+
+      #header nav ul .icon i {
+         padding: 5px;
+      }
+
+      #header nav ul .content:hover {
+         background-color: black;
+      }
+
+      #header nav ul .content:hover a{
+         color: white;
+      }
+
+      
+      /* Body container */
+      #header h3:first-of-type {
+         top: 0%;
+         left: 20%;
+      }
+
+      #bodyContainer {
+         width: 90% !important;
+         height: 1800px !important;
+         margin-top: 0px;
+         left: 5.3% !important;
+         top: 7% !important;
+      }
+
+      #bodyContainer #content1 {
+         width: 100% !important;
+         margin: 0px !important;
+         padding: 20px !important;
+         box-sizing: border-box;
+      }
+
+      #header #bodyContainer #content1 h1{
+         text-align: center;
+         margin-top: 10px;
+         font-size: 70px;
+      }
+
+      #bodyContainer #content1 span{
+         font-size: 18px !important;
+      }
+
+
+      #bodyContainer #content2 {
+         width: 100% !important;
+         margin: 0px !important;
+         margin-top: 100px !important;
+         grid-template-columns: 100% !important;
+         padding: 20px !important;
+         box-sizing: border-box;
+      }
+
+      #bodyContainer #content2 section {
+         margin: 0px !important;
+      }
+
+
+      /* Footer Body */
+      #footerBody {
+         width: 90% !important;
+         height: 1100px !important;
+         top: 56.3% !important;
+         left: 5.3% !important;
+         padding : 20px;
+         box-sizing: border-box;
+      }
+
+      #header #bodyContainer #content2 section:last-child .team p{
+         padding-top: 5px !important;
+         margin-left: 140px !important;
+      }
+
+      #header #footerBody::before {
+         left: 36% !important;
+         top: -4% !important;
+      }
+
+      #header #footerBody::after {
+         left: 36% !important;
+         top: 97.2%;
+         background-color: #21201F;
+         border-bottom-color: #21201F;
+      }
+
+      #header #footerBody .btnFooter {
+         margin-bottom: 10px;
+      }
+
+      #header #footerBody .btnFooter:first-of-type {
+         margin-left: 0%;
+      }
+
+      #header #footerBody .btnFooter:nth-child(4) {
+         margin-left: 0%;
+      }
+
+      #header #footerBody #imgFooter {
+         grid-template-columns: 100%;
+      }
+
+      #footerH3 {
+         top: 203rem;
+      }
+
+      footer {
+         grid-template-columns: 90%;
+         top: 208rem;
+         left: 0;
+         justify-content: center;
+      }
+
+      footer input {
+         margin-left: 12px;
+      }
+
+      footer textarea{
+         grid-area: 3/1/4/2;
+         padding: 15px !important;
+         margin-left: 12px;
+         height: 50px;
+      }
+
+      .btnFooterLast {
+         top: 220rem;
+         left: 35%;
+      }
+
+}
+
+@media only screen 
+   and (min-width : 411px)
+   and (max-width : 414px) 
+   and (orientation:portrait) {
+      #header #footerBody .btnFooter:first-of-type {
+         margin-left: 5%;
+      }
+
+      #header #footerBody .btnFooter:nth-child(4) {
+         margin-left: 5%;
+      }
+}
+
+@media only screen 
+   and (min-width : 359px)
+   and (max-width : 360px) 
+   and (orientation:portrait) {
+      #header #img div:nth-child(3) {
+         height: 1200px !important;
+      } 
+
+      #bodyContainer {
+         height: 1700px !important;
+         top: 5.5% !important;
+      }
+
+      #header #bodyContainer #content1 h1{
+         font-size: 65px;
+         line-height: 55px;
+      }
+
+      #header #bodyContainer #content1 span{
+         font-size: 18px !important;
+      }
+
+      #bodyContainer #content2 {
+         margin-top:70px !important;
+      }
+
+      #header #bodyContainer #content2 section:last-child .team img {
+         width: 90px;
+         height: 90px;
+         margin-left: 0px;
+      }
+
+      #header #bodyContainer #content2 section:last-child .team p {
+         margin-left: 100px !important;
+      }
+
+      #header #bodyContainer #content2 section:last-child .team span {
+         margin-left: 15px;
+      }
+
+      #header #bodyContainer #content2 section:last-child .team h4 {
+         margin-left: 100px;
+         width: 70.1%;
+      }
+
+      #header #footerBody {
+         top: 54.7% !important;
+         padding:0px;
+      }
+
+      #header #footerBody .btnFooter {
+         width: 45% !important;
+         float: left;
+         margin-right: 2px;
+      }
+
+      #header #footerBody .btnFooter:first-of-type {
+         margin-left: 13px;
+      }
+
+      #header #footerBody .btnFooter:nth-child(4){         
+         margin-left: 13px;
+      }
+
+      #header #footerBody #imgFooter {
+         clear: both;
+         padding: 10px;
+      }
+
+      #header #footerBody::before {
+         left: 33% !important;
+      }
+
+      #footerH3 {
+         top: 190rem;
+      }
+
+      footer {
+         top:195rem;
+      }
+
+      .btnFooterLast {
+         top: 207rem;
+         left: 30%;
+      }
+}
